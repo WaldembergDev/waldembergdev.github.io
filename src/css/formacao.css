@@ -14,11 +14,11 @@
 }
 
 .formacao-container::after {
-  content: "";
+  content: '';
   display: block;
   width: 130px;
   height: 100px;
-  background: url("../img/detalhe.svg");
+  background: url('../img/detalhe.svg');
   position: absolute;
   bottom: -50px;
   left: 20px;
@@ -34,7 +34,7 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #a3a3a3;
+  color: #ccc;
 }
 
 .formacao-texto strong {
@@ -73,7 +73,7 @@
 }
 
 .faculdade-curso::before {
-  content: "";
+  content: '';
   display: block;
   width: 4px;
   height: 20px;
@@ -102,7 +102,7 @@
 
 .formacao-extra h3::before {
   display: block;
-  content: "";
+  content: '';
   width: 24px;
   height: 24px;
   /* background: url("../img/cursos.svg") no-repeat center center; */
@@ -112,11 +112,11 @@
 }
 
 .cursos h3::before {
-  background: url("../img/cursos.svg") no-repeat center center;
+  background: url('../img/cursos.svg') no-repeat center center;
 }
 
 .idiomas h3::before {
-  background: url("../img/idiomas.svg") no-repeat center center;
+  background: url('../img/idiomas.svg') no-repeat center center;
 }
 
 .formacao-extra li {
